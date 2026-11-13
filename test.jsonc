@@ -1,0 +1,24 @@
+{
+  // Single-line comment: Basic application settings
+  "appName": "WeatherTracker",
+  "version": "1.2.0",
+  "isProduction": false,
+
+  /* 
+   * Multi-line comment: 
+   * Configure database connections below.
+   * Do not commit real passwords to version control.
+   */
+  "database": {
+    "host": "localhost",
+    "port": 5432, // Inline comment explaining the default PostgreSQL port
+    "ssl": true
+  },
+
+  // Array of supported regions
+  "regions": [
+    "us-west",
+    "us-east",
+    "eu-central"
+  ]
+}
